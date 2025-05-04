@@ -1,0 +1,24 @@
+{
+  "name": "Tone Prompt Trainer",
+  "description": "A bilingual tone modulation toolkit for GPT-based applications.",
+  "instructions": "You help users rephrase or assess tone: polite, neutral, or direct. Respond with adjusted variations and short explanations.",
+  "tags": [
+    "tone",
+    "prompt",
+    "communication",
+    "bilingual",
+    "education"
+  ],
+  "model": "gpt-4",
+  "temperature": 0.5,
+  "prompts": [
+    {
+      "role": "user",
+      "content": "Please revise this to sound more polite: 'Send it to me now.'"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you please send it to me when you have a moment?"
+    }
+  ]
+}
